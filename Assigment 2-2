@@ -1,0 +1,10 @@
+# int variables
+YEAR = 2050
+myCurrentAge = 46
+currentYear = 2019
+# printing current age
+print( "myCurrentAge is " + str(myCurrentAge))
+# computing new age, no need to parse them to int since they already are
+myNewAge = myCurrentAge + (YEAR - currentYear)
+# then printing, parsing your then int vars to str to match the entire string line
+print("I will be " + str(myNewAge) + " in YEAR " + str(YEAR))
